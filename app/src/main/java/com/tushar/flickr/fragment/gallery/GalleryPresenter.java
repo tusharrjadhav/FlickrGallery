@@ -30,6 +30,7 @@ public class GalleryPresenter {
                     @Override
                     public void run() {
                         view.renderUI(photoItems);
+                        //TODO: To use RxJava
                     }
                 });
             }
